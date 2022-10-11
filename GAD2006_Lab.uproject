@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "GAD2006_Lab",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "OculusVR",
@@ -69,14 +79,14 @@
 		},
 		{
 			"Name": "LuminPlatformFeatures",
-			"Enabled": false,
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Lumin"
 			]
 		},
 		{
 			"Name": "MagicLeap",
-			"Enabled": false,
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Lumin",
 				"Mac",
@@ -85,7 +95,7 @@
 		},
 		{
 			"Name": "MagicLeapMedia",
-			"Enabled": false,
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Lumin"
 			]
