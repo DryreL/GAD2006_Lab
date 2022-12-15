@@ -1,0 +1,1 @@
+& "D:\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "D:\GithubRepos\GAD2006_Lab\GAD2006_Lab.uproject" -game -log -ResX=960 -ResY=540 -Windowed
