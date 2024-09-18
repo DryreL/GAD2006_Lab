@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.27",
+	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -67,7 +67,7 @@
 		},
 		{
 			"Name": "PerforceSourceControl",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "PlasticSourceControl",
@@ -78,32 +78,17 @@
 			"Enabled": false
 		},
 		{
-			"Name": "LuminPlatformFeatures",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Lumin"
-			]
-		},
-		{
-			"Name": "MagicLeap",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Lumin",
-				"Mac",
-				"Win64"
-			]
-		},
-		{
-			"Name": "MagicLeapMedia",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Lumin"
-			]
-		},
-		{
 			"Name": "FlatNodes",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b719437f3fb54c259b34227363df8cab"
+		},
+		{
+			"Name": "DryreLUIEssentialsPlugin",
+			"Enabled": false
+		},
+		{
+			"Name": "FMODStudio",
+			"Enabled": false
 		}
 	]
 }
